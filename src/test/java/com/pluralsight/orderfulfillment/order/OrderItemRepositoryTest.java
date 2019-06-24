@@ -1,4 +1,4 @@
-package com.pluralsight.orderfulfillment.order;
+package com.pluralsight.orderfulfillment.test.order.fulfillment;
 
 import static org.junit.Assert.*;
 
@@ -6,6 +6,9 @@ import java.util.*;
 
 import javax.inject.*;
 
+import com.pluralsight.orderfulfillment.order.OrderItemEntity;
+import com.pluralsight.orderfulfillment.order.OrderItemRepository;
+import com.pluralsight.orderfulfillment.order.OrderStatus;
 import org.junit.*;
 
 import com.pluralsight.orderfulfillment.test.*;
